@@ -10,15 +10,15 @@ const Skills: React.FC = () => {
   const skillCategories: SkillCategory[] = [
     {
       name: "Frontend",
-      skills: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Redux", "Next.js"]
+      skills: ["React", "TypeScript", "JavaScript", "Angular", "HTML5", "CSS3", "Tailwind CSS", "Redux", "Next.js"]
     },
     {
       name: "Backend",
-      skills: ["Node.js", "Express", "Python", "Django", "RESTful APIs", "GraphQL", "MongoDB", "PostgreSQL"]
+      skills: ["Node.js", "Java", "Spring Boot", "Microservices", "Kafka", "RESTful APIs", "Maven", "MongoDB", "PostgreSQL"]
     },
     {
       name: "Tools & Others",
-      skills: ["Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack", "Figma", "Responsive Design"]
+      skills: ["Git", "Docker", "AWS", "CI/CD", "Jenkins", "SDLC", "Agile", "Scrum"]
     }
   ];
 
@@ -55,7 +55,7 @@ const Skills: React.FC = () => {
         >
           <h2 className="text-4xl font-bold mb-4">Skills</h2>
           <p className="text-xl text-white/70 max-w-2xl mx-auto">
-            Technologies and tools I've worked with and mastered over the years.
+            Technologies and tools I've worked with and learned over the years.
           </p>
         </motion.div>
 
@@ -98,9 +98,7 @@ const Skills: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="mt-16 text-center"
         >
-          <p className="text-white/70 max-w-2xl mx-auto">
-            I'm always learning and expanding my skill set. Currently exploring 3D web development with Three.js and WebGL.
-          </p>
+          
         </motion.div>
       </div>
     </section>

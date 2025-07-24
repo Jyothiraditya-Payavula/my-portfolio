@@ -58,7 +58,7 @@ function App() {
               </div>
               <div className="flex space-x-4">
                 <motion.a 
-                  href="https://github.com" 
+                  href="https://github.com/Jyothiraditya-Payavula" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   whileHover={{ y: -3 }}
@@ -67,7 +67,7 @@ function App() {
                   <Github size={20} />
                 </motion.a>
                 <motion.a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/in/jyothiraditya/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   whileHover={{ y: -3 }}
