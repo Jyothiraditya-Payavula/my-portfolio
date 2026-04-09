@@ -10,15 +10,15 @@ const Skills: React.FC = () => {
   const skillCategories: SkillCategory[] = [
     {
       name: "Frontend",
-      skills: ["React", "TypeScript", "JavaScript", "Angular", "HTML5", "CSS3", "Tailwind CSS", "Redux", "Next.js"]
+      skills: ["TypeScript", "JavaScript", "Angular", "HTML5", "CSS3", "Tailwind"]
     },
     {
       name: "Backend",
-      skills: ["Node.js", "Java", "Spring Boot", "Microservices", "Kafka", "RESTful APIs", "Maven", "MongoDB", "PostgreSQL"]
+      skills: ["Java", "Spring Boot", "Microservices", "Kafka", "RESTful APIs", "Maven", "Spring Batch", "Spring Security", "MongoDB", "PostgreSQL"]
     },
     {
       name: "Tools & Others",
-      skills: ["Git", "Docker", "AWS", "CI/CD", "Jenkins", "SDLC", "Agile", "Scrum"]
+      skills: ["Git","AWS", "CI/CD", "Jenkins", "SDLC", "Agile", "Scrum"]
     }
   ];
 

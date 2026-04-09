@@ -47,16 +47,16 @@ const Hero: React.FC = () => {
               Jyothiraditya Payavula
             </h1>
             <p className="text-xl md:text-2xl text-white/70 mb-8">
-             Full Stack Developer
+             Backend Engineer
             </p>
             <div className="flex justify-center space-x-4 mb-12">
               <motion.a
-                href="#projects"
+                href="public/assets/Jyothiraditya_Payavula.pdf"
                 className="px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-opacity-90 transition-all"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                View My Work
+                View Resume
               </motion.a>
               <motion.a
                 href="#contact"
@@ -66,6 +66,7 @@ const Hero: React.FC = () => {
               >
                 Contact Me
               </motion.a>
+              
             </div>
           </motion.div>
 

@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
       live: "https://example.com"
     },
     {
-      title: "Harvest.AI",
+      title: "Operon",
       description: "An application designed to detect nutrient deficiencies in plants using deep learning. By analyzing images and leveraging the EfficientNet-B5 architecture.",
       image: "https://images.pexels.com/photos/2132250/pexels-photo-2132250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       technologies: ["Deep Learning", "TensorFlow", "Android Studio"],

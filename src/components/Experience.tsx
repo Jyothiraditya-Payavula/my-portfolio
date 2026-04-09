@@ -11,9 +11,9 @@ interface ExperienceItem {
 const Experience: React.FC = () => {
   const experiences: ExperienceItem[] = [
     {
-      title: "Full Stack Developer",
+      title: "Full Stack Developer | Backend Engineer",
       company: "Tata Consultancy Services",
-      period: "2024 - Present",
+      period: "May 2024 - Present",
       description: [
         "Developed core features for the taxation returns module, building responsive UIs with Angular 17 and implementing resilient back-end microservices using Java & Spring Boot, directly enhancing the tax filing and processing experience for users.",
         "Engineered robust RESTful APIs (CRUD) with Spring Boot, managing complex tax data across PostgreSQL and MongoDB while ensuring data integrity through meticulous transaction management and exception handling.",
@@ -79,11 +79,11 @@ const Experience: React.FC = () => {
           className="text-center mt-8"
         >
           <a
-            href="/resume.pdf"
+            href="public/assets/Jyothiraditya_Payavula.pdf"
             target="_blank"
             className="inline-flex items-center px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-opacity-90 transition-all"
           >
-            Download Full Resume
+            View Resume
           </a>
         </motion.div>
       </div>
