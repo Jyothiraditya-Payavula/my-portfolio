@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
             </p>
             <div className="flex justify-center space-x-4 mb-12">
               <motion.a
-                href="public/assets/Jyothiraditya_Payavula.pdf"
+                href="assets/Jyothiraditya_Payavula.pdf"
                 className="px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-opacity-90 transition-all"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
